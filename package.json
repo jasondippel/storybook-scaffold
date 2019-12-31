@@ -1,0 +1,38 @@
+{
+  "name": "storybook-scaffold",
+  "version": "1.0.0",
+  "description": "Basic storybook setup including prettier, eslint, storybook's a11y add-on and some default theming",
+  "main": "index.js",
+  "repository": "https://github.com/jasondippel/storybook-scaffold.git",
+  "author": "Jason Dippel <dippelj12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-transform-regenerator": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@storybook/addon-a11y": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/components": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "@storybook/theming": "^5.2.8",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "start": "start-storybook"
+  }
+}
